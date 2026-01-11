@@ -166,10 +166,18 @@
 
 
 @media screen and (max-width:576px) {
-   .sec1{
-    flex-direction: column-reverse;
-    text-align: center;
-   } 
+    .header,.section1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sec1{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sec1-img{
+        margin: 0 auto;
+    }
    .sec2-items{
     flex-direction: column;
     gap: 20px;
