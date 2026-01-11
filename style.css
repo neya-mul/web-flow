@@ -121,6 +121,42 @@
     color: #000000;
     font-size: 1rem;
 }
+.section3{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: #eeeff9; */
+}
+.sec3-elements{
+    /* border: 1px solid; */
+    max-width: 900px;
+    margin: auto;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.sec3-cards{
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.sec3-card{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    /* border: 1px solid; */
+    text-align: 
+    left;
+    padding: 30px;
+    max-width: 330px;
+    box-shadow: 2px 2px 10px gray ;
+}
+.sec3-card p,.sec3-card h3{
+    max-width: 200px;
+    
+}
+.img-and-details{
+    display: flex;
+    gap:20px ;
+}
 
 
 
@@ -135,5 +171,11 @@
     gap: 20px;
     justify-content: space-between;
     padding: 5px;
+   }
+   .sec3-card{
+    margin: 10px auto;
+   }
+   .sec3-cards{
+    flex-direction: column;
    }
 }
