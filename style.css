@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* shared styles */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.flex-and-spaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.text-colour-blue{
+    color: #4E47FF;
+}
+.btn{
+   background-color: #4E47FF;
+   font-size: 1rem;
+   border: none;
+   padding: 12px 36px;
+   color: #FFFFFF;
+   border-radius: 10px;
+
+}
+
+/* main styles */
+.header{
+   max-width: 1140px;  
+   margin: 0 auto;
+   height: 700px;
+   background: url(./Assets/Hero-bg.png);
+   text-align: center;
+}
+.navbar{
+    max-width: 1000px;
+    height: 150px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.navbar h2{
+    font-size: 34px;
+}
+
+ .header h1{
+    max-width: 905px;
+    margin: 30px auto;
+    font-size: 65px;
+    color: #252432;
+ }
+.section1{
+    max-width: 1140px; 
+    margin-top: 115px; 
+}
+.sec1{
+    /* border: 1px solid; */
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.sec1 .sec1-element{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.sec1-element h2{
+    font-size: 2rem;
+    margin: 15px;
+    margin-left: 0;
+}
+.sec1-element p{
+    font-size: 1.2rem;
+    color:#757485 ;
+    margin: 15px;
+    margin-left: 0;
+    max-width: 400px;
+}
+.sec1-img{
+    max-width: 400px;
+    border-radius: 48px;
+}
+.sec1-img img{
+    width: 100%;
+    border-radius: 48px;
+}
+.section2{
+    max-width: 1140px;
+    text-align: center;
+}
+.sec2-items{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+    /* border: 1px solid; */
+}
+
+.sec2-elements{
+    margin: 0 auto;
+    background-color: #e6e5ff;
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec2-item h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.sec2-item p{
+    color: #000000;
+    font-size: 1rem;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+   .sec1{
+    flex-direction: column-reverse;
+    text-align: center;
+   } 
+   .sec2-items{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 5px;
+   }
+}
