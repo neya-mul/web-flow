@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #d8d7ed; */
-    background-color: #f4f5f8;
 }
 
 
@@ -37,8 +35,13 @@
 .section{
     margin-top: 115px;
 }
-.hide{
-    display: none;
+.btn:hover{
+    background-color: whitesmoke;
+    border: 1px solid #4E47FF;
+    color: #4E47FF;
+    font-weight: bolder;
+    box-shadow: 0 0 20px ;
+    transition: 0.2s;
 }
 /* main styles */
 .header{
@@ -157,6 +160,9 @@
     max-width: 330px;
     box-shadow: 2px 2px 10px gray ;
 }
+.sec3-card:hover{
+    box-shadow:  2px 2px 30px rgb(144, 134, 134) ;;
+}
 .sec3-card p,.sec3-card h3{
     max-width: 200px;
     
@@ -211,6 +217,7 @@
     border-radius: 10px;
     padding: 15px;
     background-color: #FFFFFF;
+    box-shadow: 0 0 10px gray;
 }
 .sec5-form button{
    width: 300px;  
@@ -274,6 +281,9 @@
    .section4 {
     padding-left: 10px;
     padding-right: 10px;
+   }
+   .section5{
+    flex-direction: column;
    }
    .footer{
     padding: 30px;
