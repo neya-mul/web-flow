@@ -284,6 +284,7 @@
    }
    .section5{
     flex-direction: column;
+    text-align: center;
    }
    .footer{
     padding: 30px;
