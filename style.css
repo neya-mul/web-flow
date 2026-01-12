@@ -169,6 +169,7 @@
     max-width: 1140px;
     margin: 30px auto;
     text-align: center;
+ 
 }
 .sec4-elements h1{
      margin: 20px;
@@ -214,8 +215,35 @@
 .sec5-form button{
    width: 300px;  
 }
-
-
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 110px;
+    /* border: 1px solid; */
+}
+.footer h1{
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.footer p {
+    max-width: 500px;
+    margin: 20px auto;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: #757485;
+}
 
 
 @media screen and (max-width:576px) {
@@ -247,14 +275,22 @@
     padding-left: 10px;
     padding-right: 10px;
    }
-   .section5{
-    flex-direction: column;
+   .footer{
+    padding: 30px;
+   }
+   .footer h1{
+
     margin: 0 auto;
+    text-align: center;
    }
-   .sec5-heading h1{
-        font-size: 4rem;
-        text-align: center;
-        margin-bottom: 20px;
+   .footer p{
+    width: 240px;
+    margin: 30px auto;
    }
+  .footer ul{
+    flex-direction: column;
+    gap: 30px;
+  }
+   
    
 }
